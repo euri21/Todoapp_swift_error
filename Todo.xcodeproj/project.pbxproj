@@ -15,7 +15,7 @@
 		650584E32ADD62940044BE5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 650584E22ADD62940044BE5B /* Assets.xcassets */; };
 		650584E62ADD62940044BE5B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 650584E42ADD62940044BE5B /* LaunchScreen.storyboard */; };
 		652812A72AF252CB00CCD4C7 /* TodoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 652812A62AF252CB00CCD4C7 /* TodoItem.swift */; };
-		D3FE885E1605A74E608B0A70 /* Pods_Todo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9074881CC08944C331672921 /* Pods_Todo.framework */; };
+		C6CA4F3C2AF544F700B178C1 /* Pods_Todo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6CA4F3B2AF544F700B178C1 /* Pods_Todo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +32,7 @@
 		650584E72ADD62940044BE5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		652812A62AF252CB00CCD4C7 /* TodoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoItem.swift; sourceTree = "<group>"; };
 		9074881CC08944C331672921 /* Pods_Todo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Todo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6CA4F3B2AF544F700B178C1 /* Pods_Todo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_Todo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,7 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D3FE885E1605A74E608B0A70 /* Pods_Todo.framework in Frameworks */,
+				C6CA4F3C2AF544F700B178C1 /* Pods_Todo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -49,6 +50,7 @@
 		2DE7DFF8B36B2EC2FF72DFB6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C6CA4F3B2AF544F700B178C1 /* Pods_Todo.framework */,
 				9074881CC08944C331672921 /* Pods_Todo.framework */,
 			);
 			name = Frameworks;
@@ -369,7 +371,8 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 5B2GD6Q9D8;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Todo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -398,7 +401,8 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 5B2GD6Q9D8;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Todo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;

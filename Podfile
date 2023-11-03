@@ -6,6 +6,6 @@ target 'Todo' do
   use_frameworks!
 
   # Pods for Todo
-pod 'RealmSwift'
+  pod 'RealmSwift'
 
 end
